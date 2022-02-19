@@ -1,0 +1,9 @@
+.Categories {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    >p {
+        margin-left: 16px;
+        cursor: pointer;
+    }
+}

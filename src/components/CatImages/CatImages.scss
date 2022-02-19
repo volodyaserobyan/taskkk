@@ -1,0 +1,13 @@
+.CatImages {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    &__item {
+        flex: 1 1 25%;
+
+        >img {
+            height: 300px;
+            width: 300px;
+        }
+    }
+}
